@@ -9,11 +9,24 @@ Note: All sides are integers.
  */
 
  #include <iostream>
+#include <vector>
 
  using namespace std;
 
 int main() {
     cout<<"Part 1"<<endl; //do not remove, edit, or change the placement of this line.
+    int numSides, lenthSides, perimeter =0;
+ 
+    cout << "Enter the number of sides the shpae has:" ;
+    cin >> numSides;
+   for (int i=1; i<= numSides; i++){
+    cout << "Enter length:" ;
+    cin >> lengthSides; 
+    perimeter+=lengthSides;
+    }
+
+cout << "Perimeter: " << perimeter; 
+
     
     return 0;
  }
